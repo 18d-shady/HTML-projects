@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My first Website</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<style type="text/css">
+			body{
+				font-family: sans-serif;
+			}
+			#sss {color: red}
+			.et {color: blue}
+			.wrap{
+				min-width: 600px;
+				width: 80%;
+				margin: auto;
+				background: green;
+				overflow: hidden;
+
+			}
+
+			.content, aside {
+				height: 600px
+			}
+
+			.content{
+				background: red;
+				float:left; 
+				width: 80%;
+			}
+
+			aside{
+				background: brown;
+				float: left;
+				width: 20%
+			}
+
+			aside ul{
+				list-style: none;
+				padding-left: 0;
+			}
+
+			footer{
+				clear: both;
+			}
+
+			li{
+				display: inline;
+				padding-right: 10px;
+			}
+
+			ul a{
+				text-decoration: none;
+			}
+
+			ul a: hover{
+				text-decoration: underline;
+			}
+
+			#see{
+				font-family: sans-serif;
+				text-align: center;
+				font-size: 30px;
+				margin-top: 10px;
+				text-transform: lowercase;
+				
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Contact</a></li>
+
+		</ul>
+
+		<!--label {display: block}-->
+		<h1>Things i need to do</h1>
+
+		<dl>
+			<dt>Sublime:</dt>
+			<dd>A code editor.</dd>
+
+		</dl>
+
+		<ol>
+			<li>Go to the mall</li>
+			<li id="sss">Shop</li>
+			<li>Go to the maarket</li>
+		</ol>
+
+		<blockquote>
+			<p>
+				we are dj wjaji isijsia
+			</p>
+		</blockquote>
+
+		<p>visit me at <a href="https://www.w3schools.com" target="_blank" >my website</a></p>
+		<img src="img/dot.png">
+
+		<div class="wrap">
+			<h1>My second Website</h1>
+			<div class="content">
+				<h2>Main content heading</h2>
+				<p>This is my blog</p>
+			</div>
+			
+			<aside>
+				<h2>Sidebar</h2>
+				<ul>
+					<li>
+						<a href="#">Home</a>
+					</li>
+
+					<li>
+						<a href="#">About</a>
+					</li>
+
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+			</aside>
+		</div>
+
+		<h1 id="see">Nettutz</h1>
+
+		
+		<form action="" method="post">
+			<p>
+				<label for="name">Enter your name here:</label>
+				<input id="name" name="name" />
+ 			</p>
+
+			<p>
+				<label for="comments">Your comments</label>
+				<textarea id="comments" name="comments"></textarea>
+			</p>
+
+			<p><input type="submit" value="Go!" name="" /></p>
+
+			<p>
+				<label for="css">Do you like css?</label>
+				<input type="checkbox" name="css" id="css">
+			</p>	
+
+			<p>
+				<label>Favourite Language</label>
+				<input type="radio" name="">Css
+				<input type="radio" name="">Java
+				<input type="radio" name="">Html
+				<input type="radio" name="">Ruby 
+			</p>
+		</form>
+		<h1 style="color: blue; ">My Good Fortune</h1>
+		<p>This is my fortune</p>
+
+
+
+		<footer>
+			<h2>This is a footer</h2>
+		</footer>
+	</body>
+
+</html>

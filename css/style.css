@@ -1,0 +1,164 @@
+body {
+	font-family: sans-serif;
+}
+
+header h1 {
+	display: inline;
+	margin-left: 30vw;
+	color: #999594;
+	
+
+}
+
+.health{
+	color: pink;
+	text-transform: lowercase;
+	font-family: cursive;
+	text-shadow: 5px 10px 10px #e3e3e3;
+}
+
+.blue{
+	color: #6e629e;
+}
+
+header input {
+	margin-left: 15vw;
+}
+
+header div {
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	position: fixed;
+	background-color: white;
+	width: 100vw;
+	top: 0vh;
+}
+
+#intro {
+	padding-top: 70px;
+	width: 80vw;
+	margin-left: 10vw;
+	margin-right: 10vw; 
+}
+
+#intro h2{
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+#intro p{
+	font-size: 20px;
+	line-height: 40px;
+}
+
+#side {
+	float: right;
+	width: 20vw;
+	margin-right: 10vw;
+	margin-top: 50px;
+	border: 1px solid #e3e3e3;
+}
+
+
+.navv {
+	background-color: white;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+	border: 1px solid #e3e3e3;
+	padding-left: 1vw;
+	box-shadow: 3px 3px 6px #e3e3e3;
+}
+
+.navv h4{
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+
+.navv a{
+	color: #418e96;
+	margin-top: 5px;
+	text-decoration: none;
+	margin-bottom: 2vh;
+}
+
+#topics a{
+	text-decoration: none;
+	display: block;
+	margin-top: 5px;
+}
+
+
+.navv p{
+	margin-top: 0px;
+}
+
+.img{
+	margin-top: 5px;
+	margin-left: 10px;
+	float: left;
+	border: 1px solid #e3e3e3;
+	width: 10vw;
+	height: 160px;
+}
+
+#contt{
+	overflow: hidden;
+	width: 55vw;
+	margin-left: 10vw;
+	margin-top: 70px;
+	border: 1px solid #e3e3e3;
+}
+
+.cont{
+	border-bottom: 1px solid #e3e3e3;
+	height: 175px;
+	margin-top: 5px;
+}
+
+#content{
+	overflow: hidden;
+	margin-top: 0px;
+}
+
+.cont h5{
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 1vw;
+	margin-bottom: 5px;
+}
+
+.cont p {
+	font-size: 17px;
+	margin-left: 1vw;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	line-height: 35px;
+	padding-bottom: 30px;
+}
+
+
+
+.cont a {
+	color: #418e96;
+	font-size: 20px;
+	margin-top: 1px;
+	margin-left: 1vw;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+.title {
+	border: 1px solid #e3e3e3;
+	text-align: center;
+	box-shadow: 4px 4px 7px #e3e3e3;
+	font-size: 20px;
+}
+

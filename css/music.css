@@ -1,0 +1,56 @@
+body{
+	text-align: center;
+	font-family: sans-serif;
+
+}
+
+#no1 {
+	background-color: black;
+	color: white;
+	overflow: hidden;
+}
+
+#no2 {
+	background-color: grey;
+	color: white;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+
+#no3 {
+	background-color: white;
+	color: grey;
+	padding-bottom: 10px;
+}
+
+#no4 {
+	background-color: blue;
+	color: white;
+	overflow: hidden;
+}
+
+#no5 {
+	background-color: white;
+	color: grey;
+
+}
+
+#no2 button {
+	background-color: red;
+	border: none;
+	height: 30px;
+
+}
+
+#no3 button {
+	background-color: blue;
+	border: none;
+	height: 30px;
+
+}
+ 
+a {
+	text-decoration: none;
+	color: white;
+
+}

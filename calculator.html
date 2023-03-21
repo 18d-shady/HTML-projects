@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+	<script type="text/javascript" src="js/calculator.js"></script>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div>
+		<h1>Davis Calculator</h1>
+		<div id="main">
+
+			<input id="display" type="text" name="display">
+			<table>
+				<tr>
+				<th class="grey"><input type="button" name="plus" id="plus" value="+" onclick="display.value += '+'" class="grey button"></th>
+				<th class="grey"><input type="button" name="minus" id="minus" value="-" onclick="display.value += '-'" class="grey button"></th>
+				<th class="grey"><input type="button" name="times" id="times" value="*" onclick="display.value += '*'" class="grey button"></th>
+				<th class="grey"><input type="button" name="divide" id="divide" value="/" onclick="display.value += '/'" class="grey button"></th>
+				</tr>
+
+				<tr>
+				<td class="ash"><input type="button" name="seven" id="seven" value="7" onclick="display.value += '7'" class="ash button"></td>
+				<td class="ash"><input type="button" name="eight" id="eight" value="8" onclick="display.value += '8'" class="ash button"></td>
+				<td class="ash"><input type="button" name="nine" id="nine" value="9" onclick="display.value += '9'" class="ash button"></td>
+				<td id = "blue"><input type="button" name="equal" id="equal" value="=" onclick="display.value = eval(display.value)" class="blue button"></td>
+				</tr>
+
+				<tr>
+				<td class="ash"><input type="button" name="four" id="four" value="4" onclick="display.value += '4'" class="ash button"></td>
+				<td class="ash"><input type="button" name="five" id="five" value="5" onclick="display.value += '5'" class="ash button"></td>
+				<td class="ash"><input type="button" name="six" id="six" value="6" onclick="display.value += '6'" class="ash button"></td>
+				</tr>
+
+				<tr>
+				<td class="ash"><input type="button" name="one" id="one" value="1" onclick="display.value += '1'" class="ash button"></td>
+				<td class="ash"><input type="button" name="two" id="two" value="2" onclick="display.value += '2'" class="ash button"></td>
+				<td class="ash"><input type="button" name="three" id="three" value="3" onclick="display.value += '3'" class="ash button"></td>
+				</tr>
+
+				<tr>
+				<td class="ash"><input type="button" name="zero" id="zero" value="0" onclick="display.value += '0'" class="ash button"></td>
+				<td class="ash"><input type="button" name="dot" id="dot" value="." onclick="display.value += '.'" class="ash button"></td>
+				<td class="ash"><input type="button" name="clear" id="clear" value="C" onclick="display.value = ''" class="ash button"></td>
+				</tr>
+			</table>
+
+		</div>
+
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+.pics1 {
+	width: 1340px;
+	height: 1000px;
+	background: url(../img/sec1.jpg);	
+}
+
+.pics2 {
+	width: 1340px;
+	height: 1000px;
+	background: url(../img/sec2.jpg);
+}
+
+.pics3 {
+	width: 1340px;
+	height: 1000px;
+	background: url(../img/sec3.jpg);
+}
+
+.pics {
+	width: 1340px;
+	height: 1000px;
+	background: url(../img/group.jpg) no-repeat;
+}
+
+#sec1 {
+	height: 500px;
+	background-color:  #d9dddc;
+	text-align: center;
+	padding: 50px;
+}
+
+#sec2 {
+	height: 500px;
+	background-color: lightgreen;
+	text-align: center;
+	padding: 50px;
+}
+
+#sec3 {
+	height: 500px;
+	text-align: center;
+	padding: 50px;
+
+
+}
+
+p{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 200px
+	padding-right:200px;
+}

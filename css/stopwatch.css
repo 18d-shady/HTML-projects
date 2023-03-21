@@ -1,0 +1,36 @@
+body{
+	background-color: #466885;
+	text-align: center;
+	padding-top: 100px;
+}
+
+h1{
+	
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.flex{
+	background-color: transparent;
+	display: inline;
+	padding: 10px;
+	margin-left: 20px;
+	font-size: 30px;
+	border: 1px solid black;
+	border-radius: 7px 7px 7px 7px; 
+
+}
+
+button:hover{
+	border: 2px solid #252e36;
+
+}
+
+p{
+	font-size: 30px;
+}

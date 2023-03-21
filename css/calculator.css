@@ -1,0 +1,61 @@
+body{
+	font-family: sans-serif;
+	display: block;
+	text-align: center;
+}
+
+#main{
+	width: 240px;
+	height: 275px;
+	border: 2px solid #e6e6e6;
+	margin: auto;
+
+}
+
+#display {
+	width: 215px;
+	height: 28px;
+	margin-left: 3px;
+	margin-top: 8px;
+	border: 2px solid #e6e6e6;
+
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 30px;
+	color: blue;
+	margin-top: 30px;
+}
+
+.grey{
+	background-color: #b2bfb8;
+}
+
+.ash{
+	background-color: #d8e3dd;
+}
+
+#equal{
+	background-color: blue;
+}
+
+.blue{
+	background-color: blue;
+
+}
+
+.button{
+	border: none;
+	padding: 10px 20px;
+}
+
+td, th{
+	border: 2px solid white;
+}
+
+table{
+	margin-top: 5px;
+	margin-left: 5px;
+}
+

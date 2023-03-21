@@ -1,0 +1,62 @@
+#na2 {
+	background-color: white;
+}
+
+.scrollmenu {
+	overflow: auto;
+	white-space: nowrap
+}
+.title {
+	margin-left: 33vw;
+	color: #494a49;
+}
+
+#box{
+	padding-right: 100px;
+	width: 500px;
+}
+
+#box h1 {
+	font-size: 40px;
+	font-family: cursive;
+}
+
+#box p{
+	font-size: 19px;
+}
+
+#box a{
+	font-size: 19px;
+	color: white;
+}
+
+#box a: hover{
+	text-decoration: underline;
+}
+
+#t1{
+	float: left;
+}
+
+li{
+	display: inline;
+}
+
+#world, #design{
+	width: 350px;
+	background-color: white;
+}
+
+#box2 h3{
+	color: black;
+}
+
+#box2 {
+	width: 525px;
+	background-color: #626964;
+	border-color: #a2a6a3;
+}
+
+.border-2{
+	border-width: 2px !important;
+}

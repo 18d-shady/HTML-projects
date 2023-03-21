@@ -1,0 +1,139 @@
+row
+col-md-x
+//col-md-offset-x
+//col-md-push-x/col-md-pull-x
+//you can nest columns by creating rows and columents within them.
+//bootsrap classes h1-h6 matches the styling of the original headings.
+//html tag <small> helps to add small text within heading and they vary with the headings.
+// the lead class create leading paragraph that are more bigger than the normal ones.
+//semantic tags in html <strong> <em> <u> for underline, <mark> for highlighting, <del> for strikethrough.
+//bootsrap has text-left, text-right, text-center and text-justifu
+//text-muted: This changes the color of the text to a light gray shade set by
+the @gray-light LESS variable. It can be used to diminish the importance
+of a text.
+• text-warning: This changes the color of the text to the orange shade set by
+the @state-warning-text LESS variable. It can be used to indicate warning
+or something that is going to have incorrect consequences.
+• text-danger: This changes the color of the text to the red shade set by the
+@state-danger-text LESS variable. It can be used to indicate a dangerousx
+action, a problem, or an error that can be crucial.
+• text-success: This changes the color of the text to the green shade set by
+the @state-success-text LESS variable. It can be used to indicate success
+after an action such as a form submission.
+• text-info: This changes the color of the text to the blue shade set by
+the @state-info-text LESS variable. It can be used to indicate general
+information that can be quite handy.
+• text-primary: This changes the color of the text to a sky blue shade.
+It is usually used to indicate text that is relevant based on priority.
+
+//small tag can be useful in blockquotes.
+//cite tags helps you to define name of source in blockquote
+//blockquote-reverse class aligns the blockquote to the right.
+//abr tag in html can be used with the class: initialism to make them capital letter.
+//you can use the list-unstyled or list-inline class in list.
+
+//table class, table-striped and table-bordered are class in table
+
+//btn-lg, btn-sm, btn-xs, btn, btn-default and btn-link.
+
+//in forms set the role to form, then in each form group set the class to form-group and in checkbox use the checkbox class
+//on the input use the form-control class
+//for the lables set to sr-only
+//form-inline for inline forms
+//form-horizontal for horizontal
+
+<code> tag is used for horizontal code snippets
+<pre> is used for long line of code.
+//img-circle, img-thumbnail, img-rounded
+
+//glyphicon class is used to add icon to our website
+// we have glyphicon-search, glyphicon-home and others.	
+//remember to use span to enclose them.
+
+//u can add the nav class to ur unordered list and add nav-tabs for tabs and nav-pills for pills
+// also nav-stacked will make it vertically stacked
+//nav-justified is to make the width of the nav to be same as the parent width
+
+//to create dropdown menu set the class of the  li element to dropdown 
+and the class of the link to dropdown data-toggle to dropdown-toggle
+you can also add a bold element with a class of carret 
+then create a nested ul element and set the class to dropdown-menu
+//add divider using the claass divider.
+
+<div>
+	<nav role="navigation" class="navbar navbar-default">
+		<div class="navbar-header">
+			<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Packt Publishing</a>
+		</div>
+		<div id="navbarCollapse" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#"> Books and Videos </a></li>
+				<li><a href="#"> Articles </a></li>
+				<li class="dropdown">
+					<a data-toggle="dropdown" class="dropdown-toggle"
+					href="#"> Categories <b class="caret"></b></a>
+					<ul role="menu" class="dropdown-menu">
+						<li><a href="#"> Web development </a></li>
+						<li><a href="#"> Game Development </a></li>
+						<li><a href="#"> Big Data and BusinessIntelligence </a></li>
+						<li><a href="#"> Virtualization and Cloud </a></li>
+						<li><a href="#"> Networking and Servers </a></li>
+						<li class="divider"></li>
+						<li><a href="#"> Miscellaneous </a></li>
+					</ul>
+				</li>
+				<li><a href="#"> Support </a></li>
+			</ul>
+			<form role="search" class="navbar-form navbar-right">
+				<div class="form-group">
+					<input type="text" placeholder="Search Here" class="form-control">
+				</div>
+			</form>
+		</div>
+	</nav>
+</div>
+
+for the nav barss....
+
+//bread crumbs are used to show ur location ina website usingk the class breadcrumb on the ul and the 
+class active on the active li
+
+//class jumbotron helps to highlight some part of your work
+//page header is for the heading of your page.
+//well insert effert to containers
+//badges are used to insert a little background around contents.
+//label depict goood information like badges and add highlighting to them
+//you can add progres bar with the progress class on a div and a progress-bar class on a nested div
+//add style attribute with width value
+//you can add active or progres-striped
+//panel class places content in a box
+then add the panel-heading and panel-body div nested
+//panels can be used with headings
+
+.pager class is used to do the next and previous class
+// add list-group class is used with div for list-groups  then add the list-group-item to the a tag
+//you can make checkbox and radiobuttons actual butttons using deir labels with a class of btn
+
+
+//fa-lg, fa-2x, fa-3x, fa-4x, and fa-5x class used for font size
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

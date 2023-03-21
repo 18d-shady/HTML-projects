@@ -1,0 +1,42 @@
+body {
+	background-color: skyblue;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+div {
+	background-color: #d9dddc;
+	position: relative;
+	width: 800px;
+	margin: auto;
+}
+
+form {
+	padding: 10px;
+}
+
+#submit {
+	color: white;
+	background-color: blue
+}
+
+#fill {
+	text-align: center;
+	font-size: 20px
+}
+
+#comments {
+	padding: 40px
+}
+
+#iq {
+	padding-right: 100px
+}
+
+h1 {
+	text-align: center;
+}
+
+input {
+	padding-bottom: 10px
+}

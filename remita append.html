@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Remita Append Id</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		body {
+			background-color: skyblue;
+		}
+		button {
+			background-color: blue;
+			color: white;
+			width: 100px;
+			height: 30px;
+			margin: auto;
+			display: block;
+			margin-top: 10px;
+		}
+
+		#no {
+			width: 300px;
+			height: 40px;
+			margin: auto;
+			display: block;
+			margin-top: 200px;
+			text-align: center;
+		}
+
+		a {
+			text-decoration: none;
+			color: green;
+			font-size: 25px;
+		}
+
+		p{
+			text-align: center;
+		}
+	</style>
+
+</head>
+<body>
+	<input id="no" type="text" placeholder="Type the Id" name="">
+
+	<button id="submit" onclick="run();">Click Here</button>
+
+	<p>
+		<a id="link" target="_blank">Finally Click Here</a>
+	</p>
+
+	<script type="text/javascript">
+		//create a button function
+
+		function run(){
+
+			//connect them to their html counterpart
+			var no1 = document.getElementById("no").value;
+
+			//in it create a variable that appends it to the link
+			var link1 = "https://login.remita.net/remita/exapp/api/v1/send/api/print/billsvc/biller/" + no1 + "/printrecieptRequest.pdf"
+
+			//then run the link as the href of the stuff
+			var anc = document.getElementById("link");
+			anc.setAttribute("href", link1);
+		}
+	</script>
+</body>
+</html>
